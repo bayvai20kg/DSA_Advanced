@@ -5,7 +5,7 @@ Dự án này là một ứng dụng Desktop được xây dựng bằng Python 
 ## 🚀 Demo Hoạt Động
 
 Bạn có thể xem video quay lại toàn bộ quá trình chạy thực tế của ứng dụng tại liên kết dưới đây: 
-👉 [**Xem Clip Chạy Demo Thuật Toán**](<(https://drive.google.com/drive/folders/1J45N5SkTkQRmMqDO62C61tBzzmasUOeS?usp=drive_link)>)
+👉 [**Xem Clip Chạy Demo Thuật Toán**](https://drive.google.com/drive/folders/1J45N5SkTkQRmMqDO62C61tBzzmasUOeS?usp=drive_link)
 
 ## 📁 Tài Liệu Tham Khảo
 
