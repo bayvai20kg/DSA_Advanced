@@ -17,7 +17,7 @@
 * `student.py`: Định nghĩa lớp (class) `Student` chứa thông tin của một sinh viên (Mã SV, Họ tên, Giới tính, Năm sinh, Quê quán).
 * `btree.py`: Cài đặt lõi thuật toán cấu trúc dữ liệu cây đa nhánh B-Tree bậc 3 (chèn, tìm kiếm, phân tách node, xuất cấu trúc text).
 * `manager.py`: Lớp nghiệp vụ `StudentManager` làm cầu nối xử lý logic giữa giao diện và cấu trúc dữ liệu B-Tree.
-* `interface.py` (hoặc `gui.py`): Thiết kế toàn bộ giao diện người dùng bằng thư viện Tkinter.
+* `interface.py`: Thiết kế toàn bộ giao diện người dùng bằng thư viện Tkinter.
 * `main.py`: File gốc dùng để khởi chạy toàn bộ ứng dụng.
 
 ## 4. Hướng dẫn cài đặt và khởi chạy
