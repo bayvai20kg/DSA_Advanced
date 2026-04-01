@@ -26,11 +26,6 @@ Dự án sử dụng thư viện `tkinter` mặc định của Python nên khôn
 **Bước 1:** Clone kho lưu trữ về máy:
 ```bash
 git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/bayvai20kg/DSA_Advanced.git)
-
-
-**Bước 1:** Clone kho lưu trữ về máy:
-```bash
-git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/bayvai20kg/DSA_Advanced.git)
 **Bước 2:** Di chuyển vào thư mục Lab3:
 ```bash
 cd DSA_Advanced/Lab3
