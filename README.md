@@ -26,9 +26,18 @@ Dự án sử dụng thư viện `tkinter` mặc định của Python nên khôn
 **Bước 1:** Clone kho lưu trữ về máy:
 ```bash
 git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/bayvai20kg/DSA_Advanced.git)
+```
+
 **Bước 2:** Di chuyển vào thư mục Lab3:
 ```bash
 cd DSA_Advanced/Lab3
-**Bước 3:** Chạy file main.py để mở ứng dụng:
+```
+
+**Bước 3:** Chạy file `main.py` để mở ứng dụng:
 ```bash
 python main.py
+```
+
+## 5. Môi trường phát triển
+* **Ngôn ngữ:** Python 3.x
+* **Thư viện UI:** Tkinter
