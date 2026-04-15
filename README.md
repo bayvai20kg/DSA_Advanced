@@ -26,3 +26,19 @@ Dự án cung cấp nhiều phiên bản giao diện. Nếu sử dụng bản We
 **Bước 1:** Clone kho lưu trữ về máy:
 ```bash
 git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/bayvai20kg/DSA_Advanced.git)
+
+**Bước 2:** Di chuyển vào thư mục Lab3:
+```bash
+cd DSA_Advanced/Lab4
+```
+
+**Bước 3:** Chạy file để mở ứng dụng:
+```bash
+streamlit run app_streamlit.py
+python app.py
+python gui.py
+```
+
+## 5. Môi trường phát triển
+* **Ngôn ngữ:** Python 3.x
+* **Thư viện UI:** Streamlit,Tkinter
