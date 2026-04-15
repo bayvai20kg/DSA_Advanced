@@ -1,24 +1,28 @@
-# 📖 Từ Điển Tiếng Anh - Radix Trie (DSA++ Lab)
+# Lab 4: Hệ Thống Từ Điển Tiếng Anh Bằng Cấu Trúc Dữ Liệu Radix Trie
 
-Đây là kho lưu trữ mã nguồn cho bài tập thực hành môn Cấu trúc Dữ liệu và Giải thuật Nâng cao (DSA++), Trường Đại học Công nghệ Thông tin (UIT). Dự án mô phỏng một ứng dụng từ điển tiếng Anh sử dụng cấu trúc dữ liệu cốt lõi là **Radix Trie** (Patricia Trie) để tối ưu hóa không gian lưu trữ và tốc độ tìm kiếm.
+**Thông tin sinh viên:**
+* **Họ và tên:** Vũ Gia Khang
+* **MSSV:** 23520713
 
-## ✨ Tính năng chính
-* **Tra cứu từ vựng:** Tìm kiếm định nghĩa với độ phức tạp $O(m)$ (với $m$ là độ dài của từ).
-* **Thêm / Cập nhật:** Thêm từ mới hoặc cập nhật định nghĩa. Thuật toán tự động tách nhánh (split) để tối ưu cây.
-* **Xóa từ:** Gỡ bỏ từ khỏi hệ thống, tự động gộp các node (merge) để duy trì trạng thái nén.
-* **Trực quan hóa:** Hiển thị toàn bộ cấu trúc cây Radix Trie dưới dạng thư mục để dễ dàng quan sát sự biến đổi dữ liệu sau các thao tác.
+## 1. Giới thiệu 
+Đây là ứng dụng quản lý từ điển tiếng Anh cho phép tra cứu, thêm và xóa từ vựng. Điểm nổi bật của dự án là việc tự cài đặt và ứng dụng cấu trúc dữ liệu **Radix Trie (Patricia Trie)** làm chỉ mục. Hệ thống không chỉ giúp tối ưu hóa không gian lưu trữ (bằng cách nén các node chỉ có 1 nhánh) và tốc độ tra cứu, mà còn trực quan hóa quá trình biến đổi, phân tách (split) và gộp (merge) các node của cây mỗi khi có thao tác thêm hoặc xóa dữ liệu.
 
-## 🚀 Giao diện hỗ trợ
-Dự án được triển khai với 3 phiên bản giao diện để linh hoạt sử dụng:
-1.  **Giao diện dòng lệnh (CLI):** Chạy trực tiếp qua Terminal với menu điều hướng nhanh gọn.
-2.  **Giao diện Tkinter:** Cửa sổ đồ họa cục bộ sử dụng thư viện GUI tiêu chuẩn của Python.
-3.  **Giao diện Streamlit:** Web Dashboard hiện đại, hỗ trợ trực quan hóa thẻ HTML và hiệu ứng tương tác (Khuyên dùng).
+## 2. Tính năng nổi bật
+* **Thêm từ vựng:** Nhập từ và định nghĩa mới vào hệ thống. Thuật toán sẽ tự động tìm tiền tố chung và xử lý tách nhánh (split node) nếu cần.
+* **Tìm kiếm siêu tốc:** Sử dụng cây Radix Trie để tìm kiếm nghĩa của từ với độ phức tạp cực thấp O(m) (với m là độ dài của từ).
+* **Xóa từ vựng:** Gỡ bỏ từ và tự động tái cấu trúc lại Radix Trie (gộp các node - merge node) để duy trì trạng thái nén tối ưu.
+* **Trực quan hóa cấu trúc (Visualization):** Xuất sơ đồ cấu trúc cây Radix Trie dưới dạng phân cấp thư mục (text console) để dễ dàng theo dõi sự thay đổi dữ liệu sau mỗi thao tác.
 
-## ⚙️ Hướng dẫn cài đặt và chạy ứng dụng
+## 3. Cấu trúc thư mục mã nguồn
+* `radix_trie.py`: Cài đặt lõi thuật toán cấu trúc dữ liệu cây Radix Trie (chèn, tìm kiếm, xóa, tách/gộp node, xuất cấu trúc).
+* `app_streamlit.py`: Lớp giao diện Web Dashboard hiện đại được thiết kế bằng thư viện Streamlit.
+* `app.py`: Phiên bản ứng dụng chạy trên giao diện dòng lệnh (Terminal/CLI).
+* `gui.py`: Phiên bản ứng dụng với giao diện đồ họa cục bộ dùng thư viện Tkinter.
+* `dictionary_data.json`: File lưu trữ dữ liệu gốc của từ điển (hệ thống tự động tạo và cập nhật).
 
-**Yêu cầu hệ thống:** Máy tính đã cài đặt Python 3.8 trở lên.
+## 4. Hướng dẫn cài đặt và khởi chạy
+Dự án cung cấp nhiều phiên bản giao diện. Nếu sử dụng bản Web, bạn cần cài đặt thêm thư viện `streamlit`.
 
-**Bước 1:** Clone repository về máy và di chuyển vào thư mục dự án:
+**Bước 1:** Clone kho lưu trữ về máy:
 ```bash
 git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/bayvai20kg/DSA_Advanced.git)
-cd DSA_Advanced/Lab4
