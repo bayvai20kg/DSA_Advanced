@@ -30,7 +30,7 @@ git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/ba
 cd DSA_Advanced/Computational_Graph
 ```
 
-**Bước 3:** Chạy file `main.py` để mở ứng dụng:
+**Bước 3:** Chạy file `app.py` để mở ứng dụng:
 ```bash
 python -m streamlit run app.py
 ```
