@@ -21,17 +21,16 @@
 ## ⚙️ Cài đặt và Khởi chạy
 
 **Bước 1:** Clone kho lưu trữ về máy:
-```bash'
-git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/bayvai20kg/DSA_Advanced.git)```
+```bash
+git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/bayvai20kg/DSA_Advanced.git)
+```
 
 **Bước 2:** Di chuyển vào thư mục Lab3:
 ```bash
 cd DSA_Advanced/Computational_Graph
 ```
 
-**Bước 3:** Chạy file để mở ứng dụng:
+**Bước 3:** Chạy file `main.py` để mở ứng dụng:
 ```bash
-streamlit run app.py
-python app.py
-python gui.py
+python -m streamlit run app.py
 ```
