@@ -21,8 +21,8 @@
 ## ⚙️ Cài đặt và Khởi chạy
 
 **Bước 1:** Clone kho lưu trữ về máy:
-```bash
-git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/bayvai20kg/DSA_Advanced.git)
+```bash'
+git clone [https://github.com/bayvai20kg/DSA_Advanced.git](https://github.com/bayvai20kg/DSA_Advanced.git)```
 
 **Bước 2:** Di chuyển vào thư mục Lab3:
 ```bash
